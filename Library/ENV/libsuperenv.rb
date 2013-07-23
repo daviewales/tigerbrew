@@ -20,3 +20,10 @@ class Array
     select { |path| File.directory? path }.uniq.map { |path| prefix + path }
   end
 end
+
+$brewfix = "#{__FILE__}/../../../".cleanpath.freeze
+$sdkroot = ENV['HOMEBREW_SDKROOT'].freeze
+
+if RUBY_VERSION < "1.8.7"
+  $:.unshift("#$brewfix/Library/Homebrew")
+end

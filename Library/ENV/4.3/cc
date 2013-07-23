@@ -1,6 +1,7 @@
 #!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -W0
 
 require "#{File.dirname __FILE__}/../libsuperenv"
+require 'vendor/backports/enumerator' if RUBY_VERSION < "1.8.7"
 require 'set'
 require 'stringio'
 
