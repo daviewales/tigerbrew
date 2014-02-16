@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -W0
+#!/usr/bin/env ruby -W0
 
 # This script is called by formula_installer as a separate instance.
 # Rationale: Formula can use __END__, Formula can change ENV

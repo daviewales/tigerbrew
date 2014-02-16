@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -W0
+#!/usr/bin/env ruby -W0
 # -*- coding: utf-8 -*-
 
 std_trap = trap("INT") { exit! 130 } # no backtrace thanks
