@@ -12,6 +12,8 @@ class Curl < Formula
 
     sha1 "26d3daf62ff3fa45bd70c1d9a109345ad2c84d8e" => :tiger_g3
     sha1 "4a4b4d763281c388da1b8d3ac5c769cba0735da1" => :tiger_altivec
+    sha1 "8a1b1b423dedceb0f4d97759dbdf46432b67f9aa" => :leopard_g3
+    sha1 "cb373615f050e52723ef943f26470adcfa77f372" => :leopard_altivec
   end
 
   keg_only :provided_by_osx

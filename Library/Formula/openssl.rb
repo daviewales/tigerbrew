@@ -12,6 +12,8 @@ class Openssl < Formula
     root_url "https://dl.dropboxusercontent.com/u/79581979/tigerbrew"
     sha1 "36f68412dd34a5708adb56a0949ecbf19279a646" => :tiger_g3
     sha1 "39ee7478f7644588e87b79e7ff5ff0c3432638b6" => :tiger_altivec
+    sha1 "76313402bf32c0f29ca109aaf612e0c785870300" => :leopard_g3
+    sha1 "71f52e4c20b7458ffabfcb996644fe9278f0f5ed" => :leopard_altivec
   end
 
   depends_on "makedepend" => :build if MacOS.prefer_64_bit?

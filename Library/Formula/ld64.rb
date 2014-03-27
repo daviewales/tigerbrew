@@ -27,6 +27,8 @@ class Ld64 < Formula
     root_url "https://dl.dropboxusercontent.com/u/79581979/tigerbrew"
     sha1 "841c863b95d9585a97a6e4d4e7f8cdc38f41f617" => :tiger_g3
     sha1 "5a42d849b7231d0b5985514ed5e77aa424048853" => :tiger_altivec
+    sha1 "9c32cb4c189dd8c05f5fed54eb05cf7b2220653d" => :leopard_g3
+    sha1 "28728a210881f5b6949c3305e932eed9109b3a10" => :leopard_altivec
   end
 
   depends_on SnowLeopardOrOlder

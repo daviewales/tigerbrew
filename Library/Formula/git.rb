@@ -10,6 +10,8 @@ class Git < Formula
     root_url "https://dl.dropboxusercontent.com/u/79581979/tigerbrew"
     sha1 "558dacea40e77ebdf873e0840d606a2ae3a46f52" => :tiger_g3
     sha1 "9c979063f72c67a1055d1dca33fc94e60e7c8634" => :tiger_altivec
+    sha1 "04ab2008a7d62b14ecfa3f530b12bde10ec51302" => :leopard_g3
+    sha1 "06329faa62fb58c1f6dc117b2a60bcfe8d856114" => :leopard_altivec
   end
 
   option 'with-blk-sha1', 'Compile with the block-optimized SHA1 implementation'
