@@ -6,6 +6,12 @@ class Curl < Formula
   mirror 'ftp://ftp.sunet.se/pub/www/utilities/curl/curl-7.36.0.tar.gz'
   sha256 '33015795d5650a2bfdd9a4a28ce4317cef944722a5cfca0d1563db8479840e90'
 
+  bottle do
+    root_url "https://dl.dropboxusercontent.com/u/79581979/tigerbrew"
+    sha1 "861af1eef292b7d6f196133c3d8e392245f60e31" => :tiger_g3
+    sha1 "0a7ce1cc2cdd484a143e6b04261f67c974beacbc" => :tiger_altivec
+  end
+
   keg_only :provided_by_osx
 
   option 'with-ssh', 'Build with scp and sftp support'

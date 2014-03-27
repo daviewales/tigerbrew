@@ -9,9 +9,9 @@ class Openssl < Formula
   sha1 '9ef09e97dfc9f14ac2c042f3b7e301098794fc0f'
 
   bottle do
-    sha1 "2687c0abb5e23d765bbd0024a010e36b05a8939e" => :mavericks
-    sha1 "dcaee2f1e51e8d0da7614e6dab4fc334f736d0de" => :mountain_lion
-    sha1 "4fabb39f5db46e8e62bf0b05e0133cd7e717860a" => :lion
+    root_url "https://dl.dropboxusercontent.com/u/79581979/tigerbrew"
+    sha1 "36f68412dd34a5708adb56a0949ecbf19279a646" => :tiger_g3
+    sha1 "39ee7478f7644588e87b79e7ff5ff0c3432638b6" => :tiger_altivec
   end
 
   depends_on "makedepend" => :build if MacOS.prefer_64_bit?

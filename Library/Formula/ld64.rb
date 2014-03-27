@@ -23,6 +23,12 @@ class Ld64 < Formula
   url 'http://opensource.apple.com/tarballs/ld64/ld64-97.17.tar.gz'
   sha1 '7c1d816c2fec02e558f4a528d16d8161f0e379b5'
 
+  bottle do
+    root_url "https://dl.dropboxusercontent.com/u/79581979/tigerbrew"
+    sha1 "841c863b95d9585a97a6e4d4e7f8cdc38f41f617" => :tiger_g3
+    sha1 "5a42d849b7231d0b5985514ed5e77aa424048853" => :tiger_altivec
+  end
+
   depends_on SnowLeopardOrOlder
 
   # Tiger either includes old versions of these headers,

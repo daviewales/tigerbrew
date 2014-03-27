@@ -10,6 +10,12 @@ class Cctools < Formula
   url 'http://www.opensource.apple.com/tarballs/cctools/cctools-806.tar.gz'
   sha1 'e4f9a7ee0eef930e81d50b6b7300b8ddc1c7b341'
 
+  bottle do
+    root_url "https://dl.dropboxusercontent.com/u/79581979/tigerbrew"
+    sha1 "0a1b8d858d2057ad85a1bd8fa9de934e54223c3f" => :tiger_g3
+    sha1 "6ec31fb6615accabf3a3defebd367e5cc7f78ffa" => :tiger_altivec
+  end
+
   depends_on 'cctools-headers' => :build
   depends_on 'ld64' => :build
 
