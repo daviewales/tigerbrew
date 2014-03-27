@@ -8,8 +8,10 @@ class Curl < Formula
 
   bottle do
     root_url "https://dl.dropboxusercontent.com/u/79581979/tigerbrew"
-    sha1 "861af1eef292b7d6f196133c3d8e392245f60e31" => :tiger_g3
-    sha1 "0a7ce1cc2cdd484a143e6b04261f67c974beacbc" => :tiger_altivec
+    revision 1
+
+    sha1 "26d3daf62ff3fa45bd70c1d9a109345ad2c84d8e" => :tiger_g3
+    sha1 "4a4b4d763281c388da1b8d3ac5c769cba0735da1" => :tiger_altivec
   end
 
   keg_only :provided_by_osx
